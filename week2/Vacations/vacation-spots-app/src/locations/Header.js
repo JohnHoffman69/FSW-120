@@ -4,8 +4,8 @@ import './header.css';
 function Header() {
 
     return (
-        <div className="vacationHeader">
-            <h1>Spectacular Vacations Spots</h1>
+        <div className="headerContainer">
+            <h1>Best Vacation Desinations</h1>
             
         </div>
     )
