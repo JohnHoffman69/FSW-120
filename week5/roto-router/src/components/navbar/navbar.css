@@ -1,0 +1,16 @@
+.navbar-container {
+    background-color: mediumturquoise;
+    padding: 25px;
+}
+
+.navbar-links-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+}

@@ -19,8 +19,10 @@ class App extends Component {
       favoriteFoodItem: "",
       biography: "",
       biographyItem: "",
+      
     };
     this.handleChange = this.handleChange.bind(this);
+    
   }
   handleChange = (event) => {
     event.preventDefault();
@@ -28,6 +30,7 @@ class App extends Component {
     this.setState({
       [name]: value,
     });
+    
   };
   formUpdate = (event) => {
     event.preventDefault();
@@ -40,6 +43,8 @@ class App extends Component {
       favoriteFoodItem: this.state.favoriteFood,
       biographyItem: this.state.biography,
     });
+    
+    
   };
   render() {
     const input =
@@ -112,7 +117,7 @@ class App extends Component {
             name="biography"
             value={this.state.biography}
             onChange={this.handleChange}
-            placeholder="Interests"
+            placeholder="Tell us about yourself"
           ></textarea>
           <br></br>
           <button disabled={!input} onClick={this.formUpdate}>
@@ -135,7 +140,12 @@ class App extends Component {
           <p id="bioBox">{this.state.biographyItem}</p>
         </div>
       </div>
+      
     );
+    
+    
   }
+  
 }
+
 export default App;

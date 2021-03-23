@@ -1,0 +1,32 @@
+.services-title {
+    color: silver;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.services{
+    color: silver;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.services-list {
+    color: silver;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.bgp{
+    background-color: black;
+}

@@ -1,0 +1,56 @@
+.bodygaurd{
+    background-position: bottom;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZoxGTF4MMgM_PfIiZOW1gD97Z86xE2We-Qg&usqp=CAU");
+    height: 600px;
+    background-color: mediumturquoise;
+}
+
+.title {
+    color: silver ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+}
+
+.subtitle {
+    color: black ;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.roto-question {
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.roto-solution1 {
+    margin-top: 70px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.roto-solution2 {
+    background-color: silver;
+    color: 3px;            
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+}
+
+.roto-solution3 {
+    
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15px;
+}
