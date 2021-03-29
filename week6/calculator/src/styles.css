@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+html, body {
+    font-family: 'VT323', sans-serif;
+    background-color: #DFDBE5;
+background-image: url("https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.answerBox {
+    padding: 5px 32px;
+    font-size: 38px;
+    border-radius: 25px;
+    color: greenyellow;
+}
+
+.calculatorbox {
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background-color: black;
+    padding: 2%;
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    'num7 num8 num9 plus'
+    'num4 num5 num6 minus'
+    'num1 num2 num3 divide'
+    'dot num0 equals multiply'
+    'clear clear clear clear';
+    gap: 5px;
+    padding: 14px;
+}
+
+button {
+    padding: 15px 0px;
+    width: 100%;
+    background-color: black;
+    color: greenyellow;
+    font-family: VT323;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.num0 {
+    grid-area: num0;
+}
+
+.num1 {
+    grid-area: num1;
+}
+
+.num2 {
+    grid-area: num2;
+}
+
+.num3 {
+    grid-area: num3;
+}
+
+.num4 {
+    grid-area: num4;
+}
+
+.num5 {
+    grid-area: num5;
+}
+
+.num6 {
+    grid-area: num6;
+}
+
+.num7 {
+    grid-area: num7;
+}
+
+.num8 {
+    grid-area: num8;
+}
+
+.num9 {
+    grid-area: num9;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.dot {
+    grid-area: dot;
+}
+
+.equals {
+    grid-area: equals;
+}
+
+/* Container Styles */
+@media (min-width: 576px){
+    .container {
+    max-width: 540px;
+}}
+
+@media (min-width: 768px){
+    .container {
+    max-width: 720px;
+}}
+
+@media (min-width: 992px){
+    .container {
+    max-width: 960px;
+}}
+
+@media (min-width: 1200px){
+    .container {
+    max-width: 1040px;
+}}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90vw;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
