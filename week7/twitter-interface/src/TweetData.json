@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "handle": "Einstein",
+        "tweetContent": "All religions, arts and sciences are branches of the same tree."
+    },
+    {
+        "id": 2,
+        "handle": "Friedrich Nietzche",
+        "tweetContent": "The true man wants two things: danger and play. For that reason he wants woman, as the most dangerous plaything.."
+    },
+    {
+        "id": 3,
+        "handle": "Dalai Lama XIV",
+        "tweetContent": "Peace does not mean an absence of conflicts; differences will always be there. Peace means solving these differences through peaceful means; through dialogue, education, knowledge; and through humane ways."
+    },
+    {
+        "id": 4,
+        "handle": "Mahatma Gandhi",
+        "tweetContent": "If I have the belief that I can do it, I shall surely acquire the capacity to do it even if I may not have it at the beginning."
+    },
+    {
+        "id": 5,
+        "handle": "Joshua Marine",
+        "tweetContent": "Challenges are what make life interesting. Overcoming them is what makes life meaningful."
+    },
+    {
+        "id": 6,
+        "handle": "Omar Khayyam",
+        "tweetContent": "Be happy for this moment. This moment is your life."
+    },
+    {
+        "id": 7,
+        "handle": "Robert Louis Stevenson",
+        "tweetContent": "Life is not a matter of holding good cards, but of playing a poor hand well."
+    },
+    {
+        "id": 8,
+        "handle": "Winston Churchill",
+        "tweetContent": "We make a living by what we get, but we make a life by what we give"
+    },
+    {
+        "id": 9,
+        "handle": "Anaïs Nin",
+        "tweetContent": "Life shrinks or expands in proportion to one’s courage"
+    },
+    {
+        "id": 10,
+        "handle": "Buddha",
+        "tweetContent": "You will not be punished for your anger, you will be punished by your anger"
+    }
+]
